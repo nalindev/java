@@ -1,0 +1,18 @@
+import java.lang.String
+
+public class StringBasics {
+
+	public static void main(String[] args) {
+		char ch[] = {'n', 'a', 'l', 'i', 'n'};
+		
+		/*
+		 * String
+		 * A string is basically a object that contains a sequence of char
+		 * S is capital in String because it derieves from a class
+		 * new is used to assign memory at runtime in string constant pool 
+		 */
+		String s = new String(ch);
+
+	}
+
+}

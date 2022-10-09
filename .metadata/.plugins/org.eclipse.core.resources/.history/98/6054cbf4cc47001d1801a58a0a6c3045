@@ -1,0 +1,11 @@
+
+public class StringBasics {
+
+	public static void main(String[] args) {
+		char ch[] = {'n', 'a', 'l', 'i', 'n'};
+		
+		String s = new String(ch);
+
+	}
+
+}
