@@ -1,6 +1,6 @@
 import java.lang.String;
 
-public class StringBasics {
+public class StringBasics extends Output {
 
 	public static void main(String[] args) {
 		char ch[] = {'n', 'a', 'l', 'i', 'n'};
@@ -36,7 +36,7 @@ public class StringBasics {
 		String s1 = "welcome";
 		String s2 = "welcome"; //it doesn't create new instance
 		
-		System.out.println((s1 == s2) ? "same - instance / memory location " : "different - instance / memory location");
+		print((s1 == s2) ? "same - instance / memory location " : "different - instance / memory location");
 		
 		/*
 		 * Note: String objects are stored in a special memory area known as the "string constant pool" which is in heap memory.
@@ -50,7 +50,7 @@ public class StringBasics {
 		String s3 = new String("nalin");
 		String s4 = new String("nalin");
 
-		System.out.println((s3 == s4) ? "same - instance / memory location " : "different - instance / memory location");
+		print((s3 == s4) ? "same - instance / memory location " : "different - instance / memory location");
 		
 		/*
 		 * JVM will create a new string object in normal (non-pool) heap memory, and the literal "nalin" is placed in the string constant pool.

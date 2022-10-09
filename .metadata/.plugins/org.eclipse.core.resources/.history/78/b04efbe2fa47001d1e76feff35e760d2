@@ -1,0 +1,24 @@
+import java.lang.String;
+
+public class StringComparison  {
+
+	public static void main(String[] args) {
+		/*
+		 * Three ways to compare string in java
+		 * 1. Using == Operator     (Reference Matching)
+		 * 2. using equals()        (Actual value matching)
+		 * 3. using compareTo()
+		 */
+		
+		/*
+		 * 1. By using equals() method
+		 */
+		String s1 = "nalin";
+		String s2 = "nalin";
+		String s3 = new String("nalin");
+		String s4 = "nishant";
+		
+		print("ok");
+	}
+
+}

@@ -1,7 +1,5 @@
 
-public class ImmutableString {
-	
-	public static void print(String s) { System.out.println(s); };
+public class ImmutableString extends Output {
 
 	public static void main(String[] args) {
 		/*
@@ -18,6 +16,7 @@ public class ImmutableString {
 		 */
 		
 		s = s.concat(" nishu"); //explicitly assign it to the reference variable
+		print(s);
 		
 		/*
 		 * q) why string objects are immutable in java?
@@ -29,5 +28,4 @@ public class ImmutableString {
 		 * => because no one can override the methods of the string class.
 		 */
 	}
-
 }
