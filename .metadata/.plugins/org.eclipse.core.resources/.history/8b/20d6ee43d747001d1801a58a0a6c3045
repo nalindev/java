@@ -24,9 +24,6 @@ public class ImmutableString {
 		 * => As Java uses the concept of String literal. Suppose there are 5 reference variables, all refer to one object "Sachin"
 		 *  If one reference variable changes the value of the object, it will be affected by all the reference variables.
 		 *   That is why String objects are immutable in Java.
-		 *   
-		 * q) why string class is final in java
-		 * => because no one can override the methods of the string class.
 		 */
 	}
 

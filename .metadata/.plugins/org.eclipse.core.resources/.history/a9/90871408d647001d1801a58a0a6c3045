@@ -1,0 +1,23 @@
+
+public class ImmutableString {
+	
+	public static void print(String s) { System.out.println(s); };
+
+	public static void main(String[] args) {
+		/*
+		 * In java Strings are immutable. immutable means it cann't be changed or modified 
+		 */
+		
+		String s = "nalin";
+		s.concat(" nishant");
+		print(s);
+		
+		/*
+		 * Here nalin is not changed but, a new object is being created with nalin nishant in string constant pool.
+		 * That is why String is known as immutable.
+		 */
+		
+		s = s.concat(" nishu"); //explicitly assign it to the reference variable 
+	}
+
+}
