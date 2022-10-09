@@ -22,7 +22,7 @@ public class StringBasics {
 		 */
 		
 		/*
-		 * Literals - Java string literals is created by using double quote "".
+		 * Literals - Java string literals is created by using double quote ".
 		 */
 		
 		String su = "welcome";
