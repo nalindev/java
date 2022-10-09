@@ -1,0 +1,14 @@
+
+public class ImmutableString {
+
+	public static void main(String[] args) {
+		/*
+		 * In java Strings are immutable. immutable means it cann't be changed or modified 
+		 */
+		
+		String first = "nalin";
+		first.concat(" nishant");
+		
+	}
+
+}

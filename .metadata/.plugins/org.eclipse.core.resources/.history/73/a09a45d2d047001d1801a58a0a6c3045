@@ -8,7 +8,7 @@ public class StringBasics {
 		/*
 		 * String
 		 * A string is basically a object that contains a sequence of char
-		 * S is capital in String because it follows a naming convention and String is a class
+		 * S is capital in String because it derieves from a class
 		 * new is used to assign memory at runtime in string constant pool 
 		 * Java String is immutable which means it cannot be changed. Whenever we change string a new instance is created. 
 		 */
@@ -44,18 +44,6 @@ public class StringBasics {
 		 * => to make java memory more efficient ( because no new obj is being created if it already exists)
 		 */
 		
-		/*
-		 * By new Keyword
-		 */
-		String s3 = new String("nalin");
-		String s4 = new String("nalin");
-
-		System.out.println((s3 == s4) ? "same - instance / memory location " : "different - instance / memory location");
-		
-		/*
-		 * JVM will create a new string object in normal (non-pool) heap memory, and the literal "nalin" is placed in the string constant pool.
-		 * The variable s3 & s4 refers to the object in heap (non-pool). 
-		 */
 
 	}
 

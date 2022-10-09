@@ -44,18 +44,6 @@ public class StringBasics {
 		 * => to make java memory more efficient ( because no new obj is being created if it already exists)
 		 */
 		
-		/*
-		 * By new Keyword
-		 */
-		String s3 = new String("nalin");
-		String s4 = new String("nalin");
-
-		System.out.println((s3 == s4) ? "same - instance / memory location " : "different - instance / memory location");
-		
-		/*
-		 * JVM will create a new string object in normal (non-pool) heap memory, and the literal "nalin" is placed in the string constant pool.
-		 * The variable s3 & s4 refers to the object in heap (non-pool). 
-		 */
 
 	}
 
