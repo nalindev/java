@@ -38,9 +38,7 @@ public class StringBasics {
 		
 		System.out.println((s1 == s2) ? "same - instance / memory location " : "different - instance / memory location");
 		
-		/*
-		 * Note: String objects are stored in a special memory area known as the "string constant pool".
-		 */
+		
 
 	}
 
